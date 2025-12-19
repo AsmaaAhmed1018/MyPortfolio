@@ -145,7 +145,150 @@
         <div class="clrFix"></div>
       </div>
     </div>
+ <div class="blog padSections" id="6">
+      <h2 class="title">Scholarships</h2>
+      <div class="ditails">
+        <ul class="container">
+          <li>
+            <div class="txt">
+              <div class="date">KAITECH</div>
+              <h4>
+                <a>Structural BIM Diploma</a>
+              </h4>
+              <p>
+                Structural BIM Diploma <br />
+                Partial Scholarship.
+              </p>
+            </div>
+          </li>
+          <li>
+            <div class="txt">
+              <div class="date">Information Technology Institute</div>
+              <h4>
+                <a>BIM Automation Diploma</a>
+              </h4>
+              <p>
+                BIM Automation Development Diploma <br />
+                Intensive Code Camp.
+              </p>
+            </div>
+          </li>
+          <li>
+            <div class="txt">
+              <div class="date">KAITECH</div>
+              <h4>
+                <a>BIM Automation Diploma</a>
+              </h4>
+              <p>
+                BIM Automation Development Diploma <br />
+                Full Scholarship.
+              </p>
+            </div>
+          </li>
 
+          <div class="clrFix"></div>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="feedback padSections" id="5">
+      <h2 class="title">Work Experience</h2>
+
+      <div class="slider-container container" style="position: relative">
+        <div class="main-card mySlides fade">
+          <div class="infos">
+            <div class="img">
+              <div style="font-size: 50px; color: #ff305b">
+                <i class="fa-solid fa-laptop-code"></i>
+              </div>
+            </div>
+            <div class="text">
+              <h3>AEC Software Developer</h3>
+              <span
+                ><i class="fa-solid fa-calendar-days"></i> Jun 2024 - Present |
+                INSTUDIO</span
+              >
+              <p>
+                Leading the design and deployment of custom BIM tools across
+                Revit, Navisworks, and AutoCAD using
+                <strong>C# and WPF</strong>. Integrating APIs to automate model
+                querying, filtering, and element manipulation, saving hours of
+                manual work.
+              </p>
+              <div class="stars">
+                <span>Revit API</span> <span>C#</span> <span>WPF</span>
+                <span>SQL</span>
+              </div>
+            </div>
+            <div class="clrFix"></div>
+          </div>
+        </div>
+
+        <!-- 2) Technical Coordinator – KAITECH -->
+<div class="main-card mySlides fade">
+  <div class="infos">
+    <div class="img">
+      <div style="font-size: 50px; color: #ff305b">
+        <i class="fa-solid fa-chalkboard-user"></i>
+      </div>
+    </div>
+    <div class="text">
+      <h3>Technical Coordinator</h3>
+      <span>
+        <i class="fa-solid fa-calendar-days"></i> Oct 2023 - Present | KAITECH
+      </span>
+      <p>
+        Mentored students in BIM automation and coding. Conducted code
+        reviews, provided constructive feedback on projects, and
+        interviewed new applicants for scholarship programs.
+      </p>
+      <div class="stars">
+        <span>Mentoring</span> <span>Code Review</span>
+        <span>Leadership</span>
+      </div>
+    </div>
+    <div class="clrFix"></div>
+  </div>
+</div>
+
+<!-- 3) Structural BIM Engineer – INSTUDIO -->
+<div class="main-card mySlides fade">
+  <div class="infos">
+    <div class="img">
+      <div style="font-size: 50px; color: #ff305b">
+        <i class="fa-solid fa-building"></i>
+      </div>
+    </div>
+    <div class="text">
+      <h3>Structural BIM Engineer</h3>
+      <span>
+        <i class="fa-solid fa-calendar-days"></i> Aug 2023 - Jun 2024 | INSTUDIO
+      </span>
+      <p>
+        Worked on mega-projects like <strong>NEOM</strong> and
+        <strong>Wadi Safar</strong>. Produced accurate structural shop
+        drawings, managed Revit families, and coordinated design changes
+        across disciplines to resolve clashes.
+      </p>
+      <div class="stars">
+        <span>Revit Structure</span> <span>Coordination</span>
+        <span>Shop Drawings</span>
+      </div>
+    </div>
+    <div class="clrFix"></div>
+  </div>
+</div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+
+      <div class="doted" style="text-align: center; margin-top: 20px">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </div>
     <div class="services padSections" id="3">
       <div class="content">
         <h2 class="title">Technical Skills</h2>
@@ -240,7 +383,7 @@
           <ul>
             <li class="filter-item desktop">
               <div class="inn">
-                <img src="./Images/8.png" alt="Project 3" />
+                <img src="./Images/8.png" alt="Project 3" onclick="openFullImage(this.src)"/>
                  <div class="center-tooltip">
                   <h4>
                     University Management System for Managing<br> Students, Teachers, and Academic Grades
@@ -257,7 +400,7 @@
             </li>
             <li class="filter-item desktop">
               <div class="inn">
-                <img src="./Images/1.png" alt="Project 1" />
+                <img src="./Images/1.png" alt="Project 1" onclick="openFullImage(this.src)" />
                   <div class="center-tooltip">
                   <h4>
                     University Management System for Managing<br> Students, Teachers, and Academic Grades
@@ -274,7 +417,7 @@
             </li>
             <li class="filter-item revit">
               <div class="inn">
-                <img src="./Images/2.png" alt="Project 2" />
+                <img src="./Images/2.png" alt="Project 2" onclick="openFullImage(this.src)"/>
                      <div class="center-tooltip">
                   <h4>
                    Developed a Revit Model Health Checker <br>
@@ -295,7 +438,7 @@
             </li>
             <li class="filter-item revit">
               <div class="inn">
-                <img src="./Images/9.png" alt="Project 3" />
+                <img src="./Images/9.png" alt="Project 3" onclick="openFullImage(this.src)"/>
               <div class="center-tooltip">
                   <h4>
                    Retrieve Revit linked elements by their<br> IDs and display them in a 3D view.
@@ -313,7 +456,7 @@
             </li>
               <li class="filter-item revit">
               <div class="inn">
-                <img src="./Images/10.png" alt="Project 3" />
+                <img src="./Images/10.png" alt="Project 3" onclick="openFullImage(this.src)"/>
                  <div class="center-tooltip">
                   <h4>
                    Extract IFC data from a Revit model and generate <br>an Excel sheet containing proxy element information.
@@ -331,7 +474,7 @@
             </li>
             <li class="filter-item revit">
               <div class="inn">
-                <img src="./Images/11.png" alt="Project 3" />
+                <img src="./Images/11.png" alt="Project 3" onclick="openFullImage(this.src)"/>
                  <div class="center-tooltip">
                   <h4>
                   Read proxy element data from an Excel sheet and <br>display the corresponding elements in a 3D view.
@@ -349,7 +492,7 @@
             </li>
             <li class="filter-item revit">
               <div class="inn">
-                <img src="./Images/3.png" alt="Project 3" />
+                <img src="./Images/3.png" alt="Project 3" onclick="openFullImage(this.src)"/>
                  <div class="center-tooltip">
                   <h4>
 Validate structural elements according to<br> the Egyptian Code requirements.                  </h4>
@@ -366,7 +509,7 @@ Validate structural elements according to<br> the Egyptian Code requirements.   
             </li>
             <li class="filter-item revit">
               <div class="inn">
-                <img src="./Images/4.png" alt="Project 3" />
+                <img src="./Images/4.png" alt="Project 3" onclick="openFullImage(this.src)"/>
                  <div class="center-tooltip">
                   <h4>
 Validate Architectural elements according to<br> the Egyptian Code requirements.                  </h4>
@@ -383,7 +526,7 @@ Validate Architectural elements according to<br> the Egyptian Code requirements.
             </li>
             <li class="filter-item revit">
               <div class="inn">
-                <img src="./Images/5.png" alt="Project 3" />
+                <img src="./Images/5.png" alt="Project 3" onclick="openFullImage(this.src)"/>
                 <div class="drop-menu">
                  <div class="center-tooltip">
                   <h4>
@@ -401,7 +544,7 @@ Automate the creation of Revit sheets with specific<br> parameters and standardi
             </li>
             <li class="filter-item revit">
               <div class="inn">
-                <img src="./Images/7.png" alt="Project 3" />
+                <img src="./Images/7.png" alt="Project 3" onclick="openFullImage(this.src)" />
                <div class="drop-menu">
                  <div class="center-tooltip">
                   <h4>
@@ -419,7 +562,7 @@ Dashboard for visualizing and analyzing <br>Navisworks clashes extracted from XM
             </li>
             <li class="filter-item revit">
               <div class="inn">
-                <img src="./Images/6.png" alt="Project 3" />
+                <img src="./Images/6.png" alt="Project 3" onclick="openFullImage(this.src)"/>
                <div class="drop-menu">
                  <div class="center-tooltip">
                   <h4>
@@ -437,7 +580,7 @@ Extract Navisworks clash XML reports and<br> visualize the clashes in a Revit 3D
             </li>
             <li class="filter-item revit">
               <div class="inn">
-                <img src="./Images/13.png" alt="Project 3" />
+                <img src="./Images/13.png" alt="Project 3" onclick="openFullImage(this.src)"/>
                 <div class="drop-menu">
                  <div class="center-tooltip">
                   <h4>
@@ -455,7 +598,7 @@ Visualize Navisworks clashes in Revit,<br> update clash statuses, <br>and re-exp
             </li>
             <li class="filter-item revit">
               <div class="inn">
-                <img src="./Images/14.png" alt="Project 3" />
+                <img src="./Images/14.png" alt="Project 3" onclick="openFullImage(this.src)"/>
                <div class="center-tooltip">
                   <h4>
                    Export NWC files from Revit without<br> opening the document, using predefined<br> NWC export settings.
@@ -473,7 +616,7 @@ Visualize Navisworks clashes in Revit,<br> update clash statuses, <br>and re-exp
             </li>
             <li class="filter-item revit">
               <div class="inn">
-                <img src="./Images/15.png" alt="Project 3" />
+                <img src="./Images/15.png" alt="Project 3" onclick="openFullImage(this.src)"/>
                  <div class="drop-menu">
                   <div class="center-tooltip">
                   <h4>
@@ -491,7 +634,7 @@ Automatically place support families at <br>specified intervals along ducts and 
             </li>
             <li class="filter-item revit">
               <div class="inn">
-                <img src="./Images/15-1.png" alt="Project 3" />
+                <img src="./Images/15-1.png" alt="Project 3" onclick="openFullImage(this.src)"/>
                 <div class="drop-menu">
                   <div class="center-tooltip">
                   <h4>
@@ -509,7 +652,7 @@ Automatically place support families at <br>specified intervals along ducts and 
             </li>
             <li class="filter-item desktop">
               <div class="inn">
-                <img src="./Images/16.png" alt="Project 3" />
+                <img src="./Images/16.png" alt="Project 3" onclick="openFullImage(this.src)"/>
                 <div class="drop-menu">
                   <div class="center-tooltip">
                   <h4>
@@ -528,7 +671,7 @@ Automatically place support families at <br>specified intervals along ducts and 
             </li>
             <li class="filter-item desktop">
               <div class="inn">
-                <img src="./Images/17.png" alt="Project 3" />
+                <img src="./Images/17.png" alt="Project 3" onclick="openFullImage(this.src)"/>
                 <div class="drop-menu">
                   <div class="center-tooltip">
                   <h4>
@@ -547,7 +690,7 @@ Automatically place support families at <br>specified intervals along ducts and 
             </li>
             <li class="filter-item desktop">
               <div class="inn">
-                <img src="./Images/18.png" alt="Project 3" />
+                <img src="./Images/18.png" alt="Project 3" onclick="openFullImage(this.src)"/>
                 <div class="drop-menu">
                   <div class="center-tooltip">
                   <h4>
@@ -566,7 +709,7 @@ Automatically place support families at <br>specified intervals along ducts and 
             </li>
             <li class="filter-item desktop">
               <div class="inn">
-                <img src="./Images/25.png" alt="Project 3" />
+                <img src="./Images/25.png" alt="Project 3" onclick="openFullImage(this.src)"/>
                 <div class="center-tooltip">
                   <h4>
                    Developed a project tracking system to<br> monitor employee work duration per project and <br>analyze hours spent on different software tools.
@@ -584,7 +727,7 @@ Automatically place support families at <br>specified intervals along ducts and 
             </li>
             <li class="filter-item revit">
               <div class="inn">
-                <img src="./Images/19.png" alt="Project 3" />
+                <img src="./Images/19.png" alt="Project 3" onclick="openFullImage(this.src)"/>
                 <div class="center-tooltip">
                   <h4>
                     Developed a tool to create Revit sites <br />
@@ -604,7 +747,7 @@ Automatically place support families at <br>specified intervals along ducts and 
             </li>
             <li class="filter-item revit">
               <div class="inn">
-                <img src="./Images/22.png" alt="Project 3" />
+                <img src="./Images/22.png" alt="Project 3" onclick="openFullImage(this.src)"/>
                 <div class="center-tooltip">
                   <h4>
                     Create cable tray covers by selecting a preferred profile.
@@ -622,7 +765,7 @@ Automatically place support families at <br>specified intervals along ducts and 
             </li>
             <li class="filter-item Mobile">
               <div class="inn">
-                <img src="./Images/23.png" alt="Project 3" />
+                <img src="./Images/23.png" alt="Project 3" onclick="openFullImage(this.src)"/>
                 <div class="center-tooltip">
                   <h4>
                     Mobile Application for Encrypting Security <br />Access
@@ -639,7 +782,7 @@ Automatically place support families at <br>specified intervals along ducts and 
             </li>
             <li class="filter-item Navis">
               <div class="inn">
-                <img src="./Images/28.png" alt="Project 3" />
+                <img src="./Images/28.png" alt="Project 3" onclick="openFullImage(this.src)"/>
                 <div class="center-tooltip">
                   <h4>
                     Synchronize clash statuses and group related clashes.
@@ -655,7 +798,7 @@ Automatically place support families at <br>specified intervals along ducts and 
             </li>
             <li class="filter-item revit">
               <div class="inn">
-                <img src="./Images/29.png" alt="Project 3" />
+                <img src="./Images/29.png" alt="Project 3" onclick="openFullImage(this.src)"/>
                <div class="center-tooltip">
                   <h4>
                     Detect Revit parameters compliance with COBie<br> requirements without opening Revit documents.
@@ -671,7 +814,7 @@ Automatically place support families at <br>specified intervals along ducts and 
             </li>
             <li class="filter-item revit">
               <div class="inn">
-                <img src="./Images/20.png" alt="Project 3" />
+                <img src="./Images/20.png" alt="Project 3" onclick="openFullImage(this.src)"/>
                 <div class="center-tooltip">
                   <h4>
                     Automated Spot Coordinates and Elevations<br> placement in Revit
@@ -692,7 +835,7 @@ Automatically place support families at <br>specified intervals along ducts and 
             </li>
             <li class="filter-item revit">
               <div class="inn">
-                <img src="./Images/21.png" alt="Project 3" />
+                <img src="./Images/21.png" alt="Project 3" onclick="openFullImage(this.src)"/>
                <div class="center-tooltip">
                   <h4>
                     List all imported CAD files and <br>allow users to remove unnecessary ones.
@@ -743,150 +886,8 @@ Automatically place support families at <br>specified intervals along ducts and 
       </div>
     </div>
 
-    <div class="feedback padSections" id="5">
-      <h2 class="title">Work Experience</h2>
 
-      <div class="slider-container container" style="position: relative">
-        <div class="main-card mySlides fade">
-          <div class="infos">
-            <div class="img">
-              <div style="font-size: 50px; color: #ff305b">
-                <i class="fa-solid fa-laptop-code"></i>
-              </div>
-            </div>
-            <div class="text">
-              <h3>AEC Software Developer</h3>
-              <span
-                ><i class="fa-solid fa-calendar-days"></i> Jun 2024 - Present |
-                INSTUDIO</span
-              >
-              <p>
-                Leading the design and deployment of custom BIM tools across
-                Revit, Navisworks, and AutoCAD using
-                <strong>C# and WPF</strong>. Integrating APIs to automate model
-                querying, filtering, and element manipulation, saving hours of
-                manual work.
-              </p>
-              <div class="stars">
-                <span>Revit API</span> <span>C#</span> <span>WPF</span>
-                <span>SQL</span>
-              </div>
-            </div>
-            <div class="clrFix"></div>
-          </div>
-        </div>
-
-        <div class="main-card mySlides fade">
-          <div class="infos">
-            <div class="img">
-              <div style="font-size: 50px; color: #ff305b">
-                <i class="fa-solid fa-building"></i>
-              </div>
-            </div>
-            <div class="text">
-              <h3>Structural BIM Engineer</h3>
-              <span
-                ><i class="fa-solid fa-calendar-days"></i> Aug 2023 - Jun 2024 |
-                INSTUDIO</span
-              >
-              <p>
-                Worked on mega-projects like <strong>NEOM</strong> and
-                <strong>Wadi Safar</strong>. Produced accurate structural shop
-                drawings, managed Revit families, and coordinated design changes
-                across disciplines to resolve clashes.
-              </p>
-              <div class="stars">
-                <span>Revit Structure</span> <span>Coordination</span>
-                <span>Shop Drawings</span>
-              </div>
-            </div>
-            <div class="clrFix"></div>
-          </div>
-        </div>
-
-        <div class="main-card mySlides fade">
-          <div class="infos">
-            <div class="img">
-              <div style="font-size: 50px; color: #ff305b">
-                <i class="fa-solid fa-chalkboard-user"></i>
-              </div>
-            </div>
-            <div class="text">
-              <h3>Technical Coordinator</h3>
-              <span
-                ><i class="fa-solid fa-calendar-days"></i> Oct 2023 - Feb 2025 |
-                KAITECH</span
-              >
-              <p>
-                Mentored students in BIM automation and coding. Conducted code
-                reviews, provided constructive feedback on projects, and
-                interviewed new applicants for scholarship programs.
-              </p>
-              <div class="stars">
-                <span>Mentoring</span> <span>Code Review</span>
-                <span>Leadership</span>
-              </div>
-            </div>
-            <div class="clrFix"></div>
-          </div>
-        </div>
-
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-      </div>
-
-      <div class="doted" style="text-align: center; margin-top: 20px">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-      </div>
-    </div>
-
-    <div class="blog padSections" id="6">
-      <h2 class="title">Scholarships</h2>
-      <div class="ditails">
-        <ul class="container">
-          <li>
-            <div class="txt">
-              <div class="date">KAITECH</div>
-              <h4>
-                <a>Structural BIM Diploma</a>
-              </h4>
-              <p>
-                Structural BIM Diploma <br />
-                Partial Scholarship.
-              </p>
-            </div>
-          </li>
-          <li>
-            <div class="txt">
-              <div class="date">Information Technology Institute</div>
-              <h4>
-                <a>BIM Automation Diploma</a>
-              </h4>
-              <p>
-                BIM Automation Development Diploma <br />
-                Intensive Code Camp.
-              </p>
-            </div>
-          </li>
-          <li>
-            <div class="txt">
-              <div class="date">KAITECH</div>
-              <h4>
-                <a>BIM Automation Diploma</a>
-              </h4>
-              <p>
-                BIM Automation Development Diploma <br />
-                Full Scholarship.
-              </p>
-            </div>
-          </li>
-
-          <div class="clrFix"></div>
-        </ul>
-      </div>
-    </div>
+   
 
     <div class="contect padSections" id="7">
       <h2 class="title">Contact Me</h2>
@@ -934,6 +935,38 @@ Automatically place support families at <br>specified intervals along ducts and 
       <span>&copy; 2025 Asmaa Ahmed. All Rights Reserved.</span>
       <br />
     </div>
+<script>
+ function openFullImage(imagePath) {
+  const modal = document.getElementById("imgModal");
+  const modalImg = document.getElementById("imgModalContent");
+
+  // Set the source and show the modal
+  modalImg.src = imagePath;
+  modal.style.display = "flex";
+}
+
+// Close when clicking anywhere on the modal or the 'X'
+document.addEventListener('click', function(e) {
+  const modal = document.getElementById("imgModal");
+  // If the user clicks the background (the modal div) or the close button
+  if (e.target.id === "imgModal" || e.target.classList.contains("img-close")) {
+    modal.style.display = "none";
+  }
+});
+
+// Close on Escape key
+document.addEventListener("keydown", function (e) {
+  if (e.key === "Escape") {
+    document.getElementById("imgModal").style.display = "none";
+  }
+});
+</script>
+<!-- Image Modal -->
+<div id="imgModal" class="img-modal">
+  <span class="img-close">&times;</span>
+  <img id="imgModalContent" />
+</div>
+
   </body>
 </html>
 <script>
@@ -950,6 +983,7 @@ Automatically place support families at <br>specified intervals along ducts and 
         w3AddClass(x[i], "show"); // Show if it matches category
       }
     }
+    
   }
 
   // 2. Helper function to show elements

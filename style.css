@@ -2076,4 +2076,107 @@ body {
 .inn:hover img {
     filter: brightness(0.6); /* Dims image to 60% brightness */
 }
+
+
+/* ================= Image Modal ================= */
+.img-modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 100000;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-modal img {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.img-close {
+  position: absolute;
+  top: 20px;
+  right: 35px;
+  font-size: 40px;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* مهم جدًا: يخلي الضغط يوصل للصورة */
+.center-tooltip,
+.drop-menu {
+  pointer-events: none;
+}
+
+.img-preview img {
+  cursor: zoom-in;
+}
+.drop-menu::after {
+  pointer-events: none;
+}
+
+.img-preview ul li {
+  cursor: zoom-in;
+}
+
+/* Ensure the container shows a pointer cursor */
+.inn {
+    cursor: pointer;
+}
+
+/* Ensure tooltips and overlays don't block the click */
+.center-tooltip, 
+.drop-menu, 
+.drop-menu::after {
+    pointer-events: none !important;
+}
+
+/* Modal styling to ensure it's on top of everything */
+.img-modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.85);
+    z-index: 999999; /* Higher than any other element */
+    justify-content: center;
+    align-items: center;
+}
+
+#imgModalContent {
+    max-width: 90%;
+    max-height: 85vh;
+    border: 3px solid #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+#imgModal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  z-index: 99999; /* Higher than everything else */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  justify-content: center;
+  align-items: center;
+}
+
+#imgModalContent {
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
+  border: 2px solid white;
+}
+
+.img-close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
 /* #endregion */
